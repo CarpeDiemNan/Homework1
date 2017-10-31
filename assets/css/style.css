@@ -1,0 +1,86 @@
+body {
+	background-color: #dcdcdc;
+	//margin: 0;
+	//padding: 0;
+	font-family: "Georgia", "Times New Roman", Times, serif;
+	//font-size: 14px;
+	line-height: 150%;
+}
+
+ 
+
+ 
+#left-header{
+	color: #000000;
+	background-color: #ffffff;
+	margin: 10;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	font-size: 28px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 10%;
+	float: left;
+	} 
+	 
+#middle-header{
+	color: #dcdcdc;
+	background-color: #009999;
+	margin: 0;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 60px;
+	font-size: 2;
+	margin-top: 10px;
+	width: 25%;
+	float: left;
+}
+#right-header{
+	color: #dcdcdc;
+	background-color: #ffffff;
+	margin: 0;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 60px;
+	font-size: 28px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 65%;
+	float: left;
+} 
+//.container {
+
+//	clear: both;
+//	width: 650px;
+//	margin: 0 auto;
+
+//}
+#main-bio,
+#contact-info,
+#bio-image {
+	padding-top: 30px;
+
+	padding-left: 80px;
+	float: left;
+}
+h2 {
+	margin-left: 50px;
+	
+}
+p {
+	margin-left: 70px;
+}
+#main-bio {
+	width: 70%
+}
+#connect-with-me {
+	width: 30%
+	color: 009999;
+}
+#bio-image {
+	margin-right: 20px;
+}
+
+
+ 
