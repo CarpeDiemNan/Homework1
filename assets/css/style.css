@@ -1,86 +1,52 @@
-body {
-	background-color: #dcdcdc;
-	//margin: 0;
-	//padding: 0;
-	font-family: "Georgia", "Times New Roman", Times, serif;
-	//font-size: 14px;
-	line-height: 150%;
-}
+ #header{
+ 	font-size: 28px;
+ 	color: #4aaaa5;
+ 	background-color: #eee;
+ 	width: 100%;
+ 	position: fixed;
+ 	padding: 40px;
+ 	top: 0;
+ 	left: 0;
 
- 
-
- 
-#left-header{
-	color: #000000;
-	background-color: #ffffff;
-	margin: 10;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 80px;
-	font-size: 28px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	width: 10%;
-	float: left;
-	} 
-	 
-#middle-header{
-	color: #dcdcdc;
-	background-color: #009999;
-	margin: 0;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 60px;
-	font-size: 2;
-	margin-top: 10px;
-	width: 25%;
-	float: left;
-}
-#right-header{
-	color: #dcdcdc;
-	background-color: #ffffff;
-	margin: 0;
-	text-align: right;
-	padding-top: 10px;
-	padding-bottom: 60px;
-	font-size: 28px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	width: 65%;
-	float: left;
-} 
-//.container {
-
-//	clear: both;
-//	width: 650px;
-//	margin: 0 auto;
-
-//}
-#main-bio,
-#contact-info,
-#bio-image {
-	padding-top: 30px;
-
-	padding-left: 80px;
-	float: left;
-}
-h2 {
-	margin-left: 50px;
-	
-}
-p {
-	margin-left: 70px;
-}
-#main-bio {
-	width: 70%
-}
-#connect-with-me {
-	width: 30%
-	color: 009999;
-}
-#bio-image {
-	margin-right: 20px;
-}
+    tab-size: 36;
+ }
 
 
- 
+  
+
+ #bio-image{
+ 	float: left;
+ 	margin: 10px;
+ }
+
+ .wrapper{
+
+	clear: both;
+	overflow: auto;
+ 	background-color: #eee;
+	width: 400px;
+	/*margin: 0 auto 0 auto;*/
+
+	margin-left: 45px;
+	padding: 20px;
+
+ }
+ #about-me{
+
+ 	font-size: 38px;
+ 	color: #4aaaa5; 	 
+ }
+ #aside{
+ 	background-color: #999;
+ 	padding: 40px;
+ 	/*width: 170px;*/
+ 	width: 20%;
+ 	position: absolute;
+ 	bottom: 200px;
+ 	right: 10px;
+ 	/*right: 20%;*/
+ }
+ #footer{
+ 	background-color: #eee;
+ 	text-align: center;
+ }
