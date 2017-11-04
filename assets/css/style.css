@@ -16,12 +16,26 @@ body{
 
     tab-size: 36;
  }
+
+ #content {
+	margin: 50px;
+
+
+ }
  a {
  	color: #777777;
  	font-size: 16px;
  }
+ .projects {
+	background-color: #4aaaa5;
+ 	margin: 25px;
+ 	float: left;
+ 	color: #ffffff;
+ 	font-size: 12px;
+ }
 
 #message {
+	clear: both;
 	min-height:120px;
 }
   
